@@ -1,1 +1,0 @@
-# sbt-project-with-symlinks

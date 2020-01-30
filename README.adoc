@@ -1,0 +1,16 @@
+= SBT project with symlinks
+
+After installing Scala metals extension on VSCode and importing the build, there are some navigation errors on log
+file. However, it looks like code navigation can still be performed anyway. More specifically, tried code navigation is
+from `corePiece/com/example/Laucher` at `sum()` function call to this function ubication at
+`functionsPiece/com/example/functions#sum`.
+
+Log file is also appended.
+
+Steps to reproduce:
+
+. open a VSCode editor
+. install Scala (Metals) extension (if missing)
+. open `entities/example-entity` project
+. import the project build
+. try to navigate to `sum()` function ubication at its call in `corePiece/com/example/Launcher`
